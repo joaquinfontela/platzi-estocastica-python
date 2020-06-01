@@ -1,6 +1,6 @@
 import math
 import random
-from media import media
+from .media import media
 
 def varianza(X):
     #Devuelve la varianza del conjunto de valores X.
