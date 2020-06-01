@@ -13,6 +13,7 @@ class Campo:
     def moverBorracho(self, borracho):
         
         deltaX, deltaY = borracho.camina()
+        print(deltaX, deltaY)
         coordenadaActual = self.coordenadasDeBorrachos [borracho]
         nuevaCoordenada = coordenadaActual.mover(deltaX, deltaY)
         

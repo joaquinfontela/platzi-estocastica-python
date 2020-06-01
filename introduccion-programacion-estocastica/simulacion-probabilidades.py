@@ -49,7 +49,7 @@ def main(numeroDeTiros, numeroDeSimulaciones):
         secuenciaDeTiros = tirarDadosUnaCantidadDeVeces(numeroDeTiros)
         secuenciasDeTiros.append(secuenciaDeTiros)
         
-    numero = 7
+    numero = 1
     cantidadDeSimulacionesEnLasQueSalioElNumero = obtenerSimulacionesEnLasQueSalioElNumero(numero, secuenciasDeTiros)
     
     probabilidadDeObtenerAlMenosUnaVezElNumero = cantidadDeSimulacionesEnLasQueSalioElNumero / numeroDeSimulaciones
